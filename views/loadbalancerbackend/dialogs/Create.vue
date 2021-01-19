@@ -181,6 +181,7 @@ export default {
         region: this.params.lbBackendgroupData.region_id,
         scope: this.$store.getters.scope,
         project: this.params.lbBackendgroupData.tenant_id,
+        manager_id: this.params.lbBackendgroupData.manager_id,
       }
       if (this.params.lbData.vpc_id) {
         params.vpc = this.params.lbData.vpc_id
